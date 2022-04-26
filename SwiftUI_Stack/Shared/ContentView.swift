@@ -27,20 +27,53 @@ struct ContentView: View {
 //        .font(.system(size: 50))
 //        .foregroundColor(.pink)
 //        //VStack안에 있는 글자를 모두 같은 유형으로 바꾸려면 VStack밖에서 선언해줘도 된다
-                HStack(alignment: .bottom, spacing: 30) {
-        //VStack과 다른점은 alignment의 요소값이 왼쪽 오른쪽이 아니라 위아래라는점이 다르다
-            Text("Hello")
-                .background(.blue)
-            Text("Swift \nUI")
-                .background(.green)
+//                HStack(alignment: .bottom, spacing: 30) {
+//        //VStack과 다른점은 alignment의 요소값이 왼쪽 오른쪽이 아니라 위아래라는점이 다르다
+//            Text("Hello")
+//                .background(.blue)
+//            Text("Swift \nUI")
+//                .background(.green)
+//        }
+//        .font(.system(size: 50))
+//        .foregroundColor(.pink)
+        
+        ZStack {
+            Image("codershigh_profile")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            EditButton()
         }
-        .font(.system(size: 50))
-        .foregroundColor(.pink)
+        .frame(width: 300, height: 300)
+        .clipShape(Circle())
     }
 }
 
+struct EditButton: View {
+    var body: some View {
+        VStack {
+            Spacer()
+            ZStack {
+                Rectangle()
+                    .fill(.black)
+                    .opacity(0.6)
+                    .frame(width: 300, height: 70)
+                
+                Text("편집")
+                    .font(.largeTitle)
+                    .bold()
+                    .padding()
+                    .foregroundColor(.white)
+            }
+        }
+    }
+}
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
