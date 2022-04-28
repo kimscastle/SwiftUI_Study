@@ -10,8 +10,7 @@ import SwiftUI
 var colorSet = [Color.yellow, Color.green, Color.red]
 
 struct ContentView: View {
-    
-    @State var index = 0
+    @State var indexs: Int = 0
     var body: some View {
         Button {
 //            self.testFunc1()
@@ -21,7 +20,7 @@ struct ContentView: View {
 //            //인스턴스의 프로퍼티
 //            Self.variable = "String"
 //            //타입의 프로퍼티
-            index = (index+1)%3
+            indexs = (indexs+1)%3
             print("버튼 클릭")
 
         } label: {
@@ -29,7 +28,7 @@ struct ContentView: View {
                 Text("Log in")
                 Image(systemName: "arrow.right.circle")
             }
-        }.buttonStyle(MyButtonStyle(index: $index))
+        }.buttonStyle(MyButtonStyle(indexs: $indexs))
         
     }
     
@@ -43,13 +42,13 @@ struct ContentView: View {
 }
 
 struct MyButtonStyle: ButtonStyle {
-    @Binding var index: Int
+    @Binding var indexs: Int
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.system(size: 30, weight: .bold, design: .rounded))
             .foregroundColor(.white)
             .padding()
-            .background(colorSet[index])
+            .background(colorSet[indexs])
             .clipShape(Capsule())
             .overlay(Capsule().stroke(.pink, lineWidth: 5))
     }
