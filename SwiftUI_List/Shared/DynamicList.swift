@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        List(playlists){ list in
-            CardView(lists: list)
+        List(playlists){
+            CardView(lists: $0)
         }
         .listStyle(SidebarListStyle())
     }
