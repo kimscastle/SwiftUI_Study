@@ -13,7 +13,7 @@ struct ProfileList: Identifiable{
     let name: String
 }
 
-let profilelists = [
+let profilelists: [ProfileList] = [
     ProfileList(image: "sv_1", name: "내 스토리"),
     ProfileList(image: "sv_2", name: "Steven"),
     ProfileList(image: "sv_3", name: "Danny"),
