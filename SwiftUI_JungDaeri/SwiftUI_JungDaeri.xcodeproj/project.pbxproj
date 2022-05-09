@@ -13,6 +13,8 @@
 		C0C0AA7C2828FB2E0017BC84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */; };
 		C0C0AA7D2828FB2E0017BC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */; };
 		C0C0AA7E2828FB2E0017BC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */; };
+		C0C0AA882828FD3A0017BC84 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA872828FD3A0017BC84 /* MyVstackView.swift */; };
+		C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA892829027F0017BC84 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C0AA702828FB2E0017BC84 /* SwiftUI_JungDaeri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_JungDaeri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C0AA762828FB2E0017BC84 /* SwiftUI_JungDaeri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_JungDaeri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C0AA872828FD3A0017BC84 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		C0C0AA892829027F0017BC84 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */,
 				C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */,
+				C0C0AA872828FD3A0017BC84 /* MyVstackView.swift */,
+				C0C0AA892829027F0017BC84 /* MyTextView.swift */,
 				C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -167,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0C0AA7B2828FB2E0017BC84 /* ContentView.swift in Sources */,
+				C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */,
 				C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */,
+				C0C0AA882828FD3A0017BC84 /* MyVstackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
