@@ -35,7 +35,7 @@ struct ContentView: View {
                         .padding(30)
                         .background(.orange)
                         .foregroundColor(.white)
-                        .clipShape(Capsule())
+                        .cornerRadius(30)
                 }
             }
         }
