@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236AFF282BF05700E75C3C /* WebContentView.swift */; };
+		C0236B03282BF0E000E75C3C /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236B02282BF0E000E75C3C /* MyWebView.swift */; };
 		C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */; };
 		C0C0AA7A2828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */; };
 		C0C0AA7B2828FB2E0017BC84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0236AFF282BF05700E75C3C /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
+		C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-JungDaeri--iOS--Info.plist"; sourceTree = "<group>"; };
+		C0236B02282BF0E000E75C3C /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JungDaeriApp.swift; sourceTree = "<group>"; };
 		C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,9 +50,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0236AFE282BF00C00E75C3C /* WebView_Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C0236AFF282BF05700E75C3C /* WebContentView.swift */,
+				C0236B02282BF0E000E75C3C /* MyWebView.swift */,
+			);
+			path = WebView_Tutorial;
+			sourceTree = "<group>";
+		};
 		C0C0AA632828FB2D0017BC84 = {
 			isa = PBXGroup;
 			children = (
+				C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */,
+				C0236AFE282BF00C00E75C3C /* WebView_Tutorial */,
 				C0C0AA682828FB2D0017BC84 /* Shared */,
 				C0C0AA712828FB2E0017BC84 /* Products */,
 			);
@@ -173,8 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0C0AA7B2828FB2E0017BC84 /* ContentView.swift in Sources */,
+				C0236B03282BF0E000E75C3C /* MyWebView.swift in Sources */,
 				C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */,
 				C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */,
+				C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */,
 				C0C0AA882828FD3A0017BC84 /* MyVstackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +328,7 @@
 				DEVELOPMENT_TEAM = Z225784MRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-JungDaeri--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,6 +359,7 @@
 				DEVELOPMENT_TEAM = Z225784MRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-JungDaeri--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
