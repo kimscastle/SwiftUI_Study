@@ -41,7 +41,7 @@ struct StackPracticeView: View {
                 .foregroundColor(.yellow)
                 .frame(width: 50, height: 50)
                 .overlay(Image(systemName: "plus").foregroundColor(.white))
-                .padding(.trailing, 10)
+                .padding()
                 .shadow(radius: 20)
         }
         .ignoresSafeArea(.all)
