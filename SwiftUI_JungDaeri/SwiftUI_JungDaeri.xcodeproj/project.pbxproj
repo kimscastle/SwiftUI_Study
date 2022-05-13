@@ -20,11 +20,14 @@
 		C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA892829027F0017BC84 /* MyTextView.swift */; };
 		C0F3789E282E908A00906A04 /* ImageTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F3789D282E908A00906A04 /* ImageTutorialView.swift */; };
 		C0F378A0282E909800906A04 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F3789F282E909800906A04 /* CircleImageView.swift */; };
+		C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F378A2282EA0AC00906A04 /* StackPracticeView.swift */; };
+		C0F378A5282EA0D900906A04 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F378A4282EA0D900906A04 /* MyProjectCard.swift */; };
+		C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F378A6282EA46B00906A04 /* MyBasicCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0236AFF282BF05700E75C3C /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
-		C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-JungDaeri--iOS--Info.plist"; sourceTree = "<group>"; };
+		C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftUI-JungDaeri--iOS--Info.plist"; sourceTree = "<group>"; };
 		C0236B02282BF0E000E75C3C /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		C0236B05282C043200E75C3C /* Text_tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_tutorial.swift; sourceTree = "<group>"; };
 		C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JungDaeriApp.swift; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		C0C0AA892829027F0017BC84 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		C0F3789D282E908A00906A04 /* ImageTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTutorialView.swift; sourceTree = "<group>"; };
 		C0F3789F282E909800906A04 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		C0F378A2282EA0AC00906A04 /* StackPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPracticeView.swift; sourceTree = "<group>"; };
+		C0F378A4282EA0D900906A04 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		C0F378A6282EA46B00906A04 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +82,10 @@
 		C0C0AA632828FB2D0017BC84 = {
 			isa = PBXGroup;
 			children = (
+				C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */,
+				C0F378A1282EA08E00906A04 /* SwitUI_stack_practice_tutorial */,
 				C0F3789C282E903F00906A04 /* Image_tutorial */,
 				C0236B04282C041A00E75C3C /* Text_tutorial */,
-				C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */,
 				C0236AFE282BF00C00E75C3C /* WebView_Tutorial */,
 				C0C0AA682828FB2D0017BC84 /* Shared */,
 				C0C0AA712828FB2E0017BC84 /* Products */,
@@ -113,6 +120,16 @@
 				C0F3789F282E909800906A04 /* CircleImageView.swift */,
 			);
 			path = Image_tutorial;
+			sourceTree = "<group>";
+		};
+		C0F378A1282EA08E00906A04 /* SwitUI_stack_practice_tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C0F378A2282EA0AC00906A04 /* StackPracticeView.swift */,
+				C0F378A4282EA0D900906A04 /* MyProjectCard.swift */,
+				C0F378A6282EA46B00906A04 /* MyBasicCard.swift */,
+			);
+			path = SwitUI_stack_practice_tutorial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,11 +233,14 @@
 				C0C0AA7B2828FB2E0017BC84 /* ContentView.swift in Sources */,
 				C0F378A0282E909800906A04 /* CircleImageView.swift in Sources */,
 				C0236B03282BF0E000E75C3C /* MyWebView.swift in Sources */,
+				C0F378A5282EA0D900906A04 /* MyProjectCard.swift in Sources */,
 				C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */,
 				C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */,
 				C0F3789E282E908A00906A04 /* ImageTutorialView.swift in Sources */,
 				C0236B06282C043200E75C3C /* Text_tutorial.swift in Sources */,
 				C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */,
+				C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */,
+				C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */,
 				C0C0AA882828FD3A0017BC84 /* MyVstackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_JungDaeriApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StackPracticeView()
         }
     }
 }
