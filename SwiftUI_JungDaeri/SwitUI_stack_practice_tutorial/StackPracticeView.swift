@@ -35,6 +35,7 @@ struct StackPracticeView: View {
                 }
             }
             .padding()
+            .padding(.top, 30)
             
             Circle()
                 .foregroundColor(.yellow)
@@ -43,6 +44,7 @@ struct StackPracticeView: View {
                 .padding(.trailing, 10)
                 .shadow(radius: 20)
         }
+        .ignoresSafeArea(.all)
     }
 }
 
