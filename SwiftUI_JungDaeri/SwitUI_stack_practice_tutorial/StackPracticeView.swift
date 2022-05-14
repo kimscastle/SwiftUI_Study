@@ -25,12 +25,11 @@ struct StackPracticeView: View {
                     VStack{
                         MyProjectCard()
                         MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
+                        MyCard(icon: "pencil.circle.fill", title: "필기노트", start: "1 PM", end: "3 PM", bgColor: .red)
+                        MyCard(icon: "pencil.circle.fill", title: "필기노트", start: "2 PM", end: "6 PM", bgColor: .green)
+                        MyCard(icon: "pencil.circle.fill", title: "필기노트", start: "3 PM", end: "6 PM", bgColor: .blue)
+                        MyCard(icon: "pencil.circle.fill", title: "필기노트", start: "4 PM", end: "6 PM", bgColor: .orange)
+                        MyCard(icon: "pencil.circle.fill", title: "필기노트", start: "5 PM", end: "6 PM", bgColor: .brown)
                     }
                 }
             }
