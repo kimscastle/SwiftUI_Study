@@ -42,7 +42,6 @@ struct MyList: View {
         .onAppear{
             UITableView.appearance().separatorColor = .clear
         }
-        .navigationBarTitle("내 목록")
     }
 }
 

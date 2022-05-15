@@ -20,6 +20,7 @@
 		C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA892829027F0017BC84 /* MyTextView.swift */; };
 		C0E68107282F696E0028285E /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E68106282F696E0028285E /* MyCard.swift */; };
 		C0E6810A282F6F9E0028285E /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E68109282F6F9E0028285E /* MyList.swift */; };
+		C0E6810E283143F50028285E /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6810D283143F50028285E /* MyNavigationView.swift */; };
 		C0F3789E282E908A00906A04 /* ImageTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F3789D282E908A00906A04 /* ImageTutorialView.swift */; };
 		C0F378A0282E909800906A04 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F3789F282E909800906A04 /* CircleImageView.swift */; };
 		C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F378A2282EA0AC00906A04 /* StackPracticeView.swift */; };
@@ -41,6 +42,7 @@
 		C0C0AA892829027F0017BC84 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		C0E68106282F696E0028285E /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		C0E68109282F6F9E0028285E /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		C0E6810D283143F50028285E /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		C0F3789D282E908A00906A04 /* ImageTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTutorialView.swift; sourceTree = "<group>"; };
 		C0F3789F282E909800906A04 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		C0F378A2282EA0AC00906A04 /* StackPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPracticeView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				C0F378A4282EA0D900906A04 /* MyProjectCard.swift */,
 				C0F378A6282EA46B00906A04 /* MyBasicCard.swift */,
 				C0E68106282F696E0028285E /* MyCard.swift */,
+				C0E6810D283143F50028285E /* MyNavigationView.swift */,
 			);
 			path = SwitUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				C0E68107282F696E0028285E /* MyCard.swift in Sources */,
 				C0236B06282C043200E75C3C /* Text_tutorial.swift in Sources */,
 				C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */,
+				C0E6810E283143F50028285E /* MyNavigationView.swift in Sources */,
 				C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */,
 				C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */,
 				C0C0AA882828FD3A0017BC84 /* MyVstackView.swift in Sources */,
