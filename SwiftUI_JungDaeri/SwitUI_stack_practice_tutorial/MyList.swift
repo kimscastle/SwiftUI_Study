@@ -37,11 +37,12 @@ struct MyList: View {
             }
             .listRowInsets(EdgeInsets.init(top: 10, leading: 10, bottom: 10, trailing: 10))
         }
-        .listStyle(PlainListStyle())
+        .navigationTitle(Text("내 투두리스트"))
         //구분자 없애기
         .onAppear{
             UITableView.appearance().separatorColor = .clear
         }
+//        .navigationBarHidden(true)
     }
 }
 

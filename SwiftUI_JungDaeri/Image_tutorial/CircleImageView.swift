@@ -25,6 +25,7 @@ struct CircleImageView: View {
                     .foregroundColor(.white)
                 
             )
+            .padding()
     }
 }
 

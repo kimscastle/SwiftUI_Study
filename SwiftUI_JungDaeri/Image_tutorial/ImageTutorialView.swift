@@ -9,13 +9,8 @@ import SwiftUI
 
 struct ImageTutorialView: View {
     var body: some View {
-        NavigationView {
+            ScrollView {
             VStack{
-                Image("myImage")
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 10)
-                    .offset(y: -150)
                 CircleImageView()
                 HStack{
                     NavigationLink(destination: MyWebView(urlToLoad: "http://naver.com").edgesIgnoringSafeArea(.all)){
@@ -37,7 +32,15 @@ struct ImageTutorialView: View {
                 }
                 .padding()
             }
+            .navigationTitle(Text("내 프로필"))
+            .navigationBarItems(trailing: NavigationLink(destination: Text("설정화면입니다")){
+                Image(systemName: "gear")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 40, height: 40)
+            })
         }
+
     }
 }
 

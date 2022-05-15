@@ -20,7 +20,7 @@ struct MyNavigationView: View {
                 Text("하하")
             }, trailing: NavigationLink(destination: Text("넘어온 뷰입니다")){
                 Image(systemName: "bookmark.fill")
-                    .font(.largeTitle)
+                    .font(.system(size: 25, weight: .bold, design: .rounded))
                     .foregroundColor(.black)
             })//button을 넣어도 괜찮음
         }

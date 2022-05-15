@@ -19,9 +19,12 @@ struct StackPracticeView: View {
                                 .font(.largeTitle)
                                 .foregroundColor(.black)
                         }
-                        Spacer() 
-                        Image(systemName: "person.crop.circle.fill")
-                            .font(.largeTitle)
+                        Spacer()
+                        NavigationLink(destination: ImageTutorialView()){
+                            Image(systemName: "person.crop.circle.fill")
+                                .font(.largeTitle)
+                                .foregroundColor(.black)
+                        }
                     }
                     
                     Text("정대리 할일 목록")
