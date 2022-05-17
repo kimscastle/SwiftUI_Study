@@ -10,6 +10,8 @@
 		C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236AFF282BF05700E75C3C /* WebContentView.swift */; };
 		C0236B03282BF0E000E75C3C /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236B02282BF0E000E75C3C /* MyWebView.swift */; };
 		C0236B06282C043200E75C3C /* Text_tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236B05282C043200E75C3C /* Text_tutorial.swift */; };
+		C0BA86132833A9B600E36D2D /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86122833A9B600E36D2D /* MyGeometryReader.swift */; };
+		C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86142833AC5400E36D2D /* MyGeometryReaderVstack.swift */; };
 		C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */; };
 		C0C0AA7A2828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */; };
 		C0C0AA7B2828FB2E0017BC84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */; };
@@ -33,6 +35,8 @@
 		C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftUI-JungDaeri--iOS--Info.plist"; sourceTree = "<group>"; };
 		C0236B02282BF0E000E75C3C /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		C0236B05282C043200E75C3C /* Text_tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_tutorial.swift; sourceTree = "<group>"; };
+		C0BA86122833A9B600E36D2D /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		C0BA86142833AC5400E36D2D /* MyGeometryReaderVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVstack.swift; sourceTree = "<group>"; };
 		C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JungDaeriApp.swift; sourceTree = "<group>"; };
 		C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -131,12 +135,14 @@
 		C0F378A1282EA08E00906A04 /* SwitUI_stack_practice_tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				C0BA86122833A9B600E36D2D /* MyGeometryReader.swift */,
 				C0E68109282F6F9E0028285E /* MyList.swift */,
 				C0F378A2282EA0AC00906A04 /* StackPracticeView.swift */,
 				C0F378A4282EA0D900906A04 /* MyProjectCard.swift */,
 				C0F378A6282EA46B00906A04 /* MyBasicCard.swift */,
 				C0E68106282F696E0028285E /* MyCard.swift */,
 				C0E6810D283143F50028285E /* MyNavigationView.swift */,
+				C0BA86142833AC5400E36D2D /* MyGeometryReaderVstack.swift */,
 			);
 			path = SwitUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -245,6 +251,7 @@
 				C0F378A5282EA0D900906A04 /* MyProjectCard.swift in Sources */,
 				C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */,
 				C0E6810A282F6F9E0028285E /* MyList.swift in Sources */,
+				C0BA86132833A9B600E36D2D /* MyGeometryReader.swift in Sources */,
 				C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */,
 				C0F3789E282E908A00906A04 /* ImageTutorialView.swift in Sources */,
 				C0E68107282F696E0028285E /* MyCard.swift in Sources */,
@@ -253,6 +260,7 @@
 				C0E6810E283143F50028285E /* MyNavigationView.swift in Sources */,
 				C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */,
 				C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */,
+				C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */,
 				C0C0AA882828FD3A0017BC84 /* MyVstackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
