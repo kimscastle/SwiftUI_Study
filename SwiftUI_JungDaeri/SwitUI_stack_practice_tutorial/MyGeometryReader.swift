@@ -8,21 +8,23 @@
 import SwiftUI
 
 struct MyGeometryReader: View {
+    
+    let screenSize = UIScreen.main.bounds
+    
     var body: some View {
-
-        GeometryReader { geometryReader in
+        
             
             VStack {
                 Spacer()
                 HStack(spacing: 0) {
                     Text("1")
                         .font(.largeTitle)
-                        .frame(width: geometryReader.size.width / 2)
+                        .frame(width: screenSize.width/4)
                         .foregroundColor(.white)
                         .background(.red)
                     Text("2")
                         .font(.largeTitle)
-                        .frame(width: geometryReader.size.width / 2)
+                        .frame(width: screenSize.width/4)
                         .foregroundColor(.white)
                         .background(.blue)
     //                Text("3")
@@ -38,7 +40,6 @@ struct MyGeometryReader: View {
                 }
                 Spacer()
             }
-        }
 
     }
 }

@@ -17,10 +17,14 @@ struct MyGeometryReaderVstack: View {
     
     @State var index: Index = .two
     
+    let centerPosition: (GeometryProxy) -> CGPoint = {proxy in
+        return CGPoint(x: proxy.frame(in: .local).midX,
+                       y: proxy.frame(in: .local).midY)
+    }
+    
     var body: some View {
-        GeometryReader{ geometryReader in
+        GeometryReader{ proxy in
             HStack {
-                Spacer()
                 VStack(spacing: 0){
                     
                     Button {
@@ -32,7 +36,7 @@ struct MyGeometryReaderVstack: View {
                         Text("1")
                             .font(.system(size: 40, weight: .bold, design: .rounded))
                             .foregroundColor(.white)
-                            .frame(width: 100, height: geometryReader.size.height/3)
+                            .frame(width: 100, height: proxy.size.height/3)
                             .padding(.horizontal, index == .one ? 50 : 0)
                             .background(.red)
                     }
@@ -46,7 +50,7 @@ struct MyGeometryReaderVstack: View {
                         Text("2")
                             .font(.system(size: 40, weight: .bold, design: .rounded))
                             .foregroundColor(.white)
-                            .frame(width: 100, height: geometryReader.size.height/3)
+                            .frame(width: 100, height: proxy.size.height/3)
                             .padding(.horizontal, index == .two ? 50 : 0)
                             .background(.green)
                     }
@@ -59,12 +63,12 @@ struct MyGeometryReaderVstack: View {
                         Text("3")
                             .font(.system(size: 40, weight: .bold, design: .rounded))
                             .foregroundColor(.white)
-                            .frame(width: 100, height: geometryReader.size.height/3)
+                            .frame(width: 100, height: proxy.size.height/3)
                             .padding(.horizontal, index == .three ? 50 : 0)
                             .background(.blue)
                     }
                 }
-                Spacer()
+                .position(centerPosition(proxy))
             }
         }
         .background(.yellow)
