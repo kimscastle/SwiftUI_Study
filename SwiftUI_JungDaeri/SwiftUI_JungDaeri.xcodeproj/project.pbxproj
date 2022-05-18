@@ -14,6 +14,7 @@
 		C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86142833AC5400E36D2D /* MyGeometryReaderVstack.swift */; };
 		C0BA86172833ED7200E36D2D /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86162833ED7200E36D2D /* MyTabView.swift */; };
 		C0BA86192833EF7600E36D2D /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86182833EF7600E36D2D /* MyView.swift */; };
+		C0BA861B2833F27300E36D2D /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA861A2833F27300E36D2D /* MyCustomTabView.swift */; };
 		C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */; };
 		C0C0AA7A2828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */; };
 		C0C0AA7B2828FB2E0017BC84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */; };
@@ -41,6 +42,7 @@
 		C0BA86142833AC5400E36D2D /* MyGeometryReaderVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVstack.swift; sourceTree = "<group>"; };
 		C0BA86162833ED7200E36D2D /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		C0BA86182833EF7600E36D2D /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		C0BA861A2833F27300E36D2D /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 		C0C0AA692828FB2D0017BC84 /* SwiftUI_JungDaeriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JungDaeriApp.swift; sourceTree = "<group>"; };
 		C0C0AA6A2828FB2D0017BC84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				C0BA86122833A9B600E36D2D /* MyGeometryReader.swift */,
 				C0BA86162833ED7200E36D2D /* MyTabView.swift */,
 				C0BA86182833EF7600E36D2D /* MyView.swift */,
+				C0BA861A2833F27300E36D2D /* MyCustomTabView.swift */,
 			);
 			path = SwitUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */,
 				C0E6810E283143F50028285E /* MyNavigationView.swift in Sources */,
 				C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */,
+				C0BA861B2833F27300E36D2D /* MyCustomTabView.swift in Sources */,
 				C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */,
 				C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */,
 				C0BA86172833ED7200E36D2D /* MyTabView.swift in Sources */,

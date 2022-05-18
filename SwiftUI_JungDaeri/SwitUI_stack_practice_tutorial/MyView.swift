@@ -16,6 +16,7 @@ struct MyView: View {
                 .ignoresSafeArea(.all)
             Text(title)
                 .font(.system(size: 40, weight: .heavy, design: .rounded))
+                .foregroundColor(.white)
         }
     }
 }
