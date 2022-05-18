@@ -18,6 +18,7 @@ struct MyView: View {
                 .font(.system(size: 40, weight: .heavy, design: .rounded))
                 .foregroundColor(.white)
         }
+        .animation(.none)
     }
 }
 
