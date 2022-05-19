@@ -23,6 +23,11 @@
 		C0C0AA7E2828FB2E0017BC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */; };
 		C0C0AA882828FD3A0017BC84 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA872828FD3A0017BC84 /* MyVstackView.swift */; };
 		C0C0AA8A2829027F0017BC84 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C0AA892829027F0017BC84 /* MyTextView.swift */; };
+		C0DA90D828364B6300A9392B /* ButtonStyle_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90D728364B6300A9392B /* ButtonStyle_ContentView.swift */; };
+		C0DA90DA28364BEF00A9392B /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90D928364BEF00A9392B /* MyButtonStyle.swift */; };
+		C0DA90DC28364FDC00A9392B /* MyRotateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90DB28364FDC00A9392B /* MyRotateButtonStyle.swift */; };
+		C0DA90DE2836513400A9392B /* MySmallerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90DD2836513400A9392B /* MySmallerButtonStyle.swift */; };
+		C0DA90E0283651CD00A9392B /* MyBlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90DF283651CD00A9392B /* MyBlurButtonStyle.swift */; };
 		C0E68107282F696E0028285E /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E68106282F696E0028285E /* MyCard.swift */; };
 		C0E6810A282F6F9E0028285E /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E68109282F6F9E0028285E /* MyList.swift */; };
 		C0E6810E283143F50028285E /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6810D283143F50028285E /* MyNavigationView.swift */; };
@@ -50,6 +55,11 @@
 		C0C0AA762828FB2E0017BC84 /* SwiftUI_JungDaeri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_JungDaeri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C0AA872828FD3A0017BC84 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
 		C0C0AA892829027F0017BC84 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		C0DA90D728364B6300A9392B /* ButtonStyle_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_ContentView.swift; sourceTree = "<group>"; };
+		C0DA90D928364BEF00A9392B /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		C0DA90DB28364FDC00A9392B /* MyRotateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotateButtonStyle.swift; sourceTree = "<group>"; };
+		C0DA90DD2836513400A9392B /* MySmallerButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmallerButtonStyle.swift; sourceTree = "<group>"; };
+		C0DA90DF283651CD00A9392B /* MyBlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlurButtonStyle.swift; sourceTree = "<group>"; };
 		C0E68106282F696E0028285E /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		C0E68109282F6F9E0028285E /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		C0E6810D283143F50028285E /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
@@ -98,6 +108,7 @@
 		C0C0AA632828FB2D0017BC84 = {
 			isa = PBXGroup;
 			children = (
+				C0DA90D628364B3400A9392B /* ButtonStyle_swiftUI */,
 				C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */,
 				C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */,
 				C0F378A1282EA08E00906A04 /* SwitUI_stack_practice_tutorial */,
@@ -127,6 +138,18 @@
 				C0C0AA762828FB2E0017BC84 /* SwiftUI_JungDaeri.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C0DA90D628364B3400A9392B /* ButtonStyle_swiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C0DA90D728364B6300A9392B /* ButtonStyle_ContentView.swift */,
+				C0DA90D928364BEF00A9392B /* MyButtonStyle.swift */,
+				C0DA90DB28364FDC00A9392B /* MyRotateButtonStyle.swift */,
+				C0DA90DD2836513400A9392B /* MySmallerButtonStyle.swift */,
+				C0DA90DF283651CD00A9392B /* MyBlurButtonStyle.swift */,
+			);
+			path = ButtonStyle_swiftUI;
 			sourceTree = "<group>";
 		};
 		C0F3789C282E903F00906A04 /* Image_tutorial */ = {
@@ -254,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DA90DE2836513400A9392B /* MySmallerButtonStyle.swift in Sources */,
 				C0C0AA7B2828FB2E0017BC84 /* ContentView.swift in Sources */,
 				C0F378A0282E909800906A04 /* CircleImageView.swift in Sources */,
 				C0236B03282BF0E000E75C3C /* MyWebView.swift in Sources */,
@@ -263,13 +287,17 @@
 				C0BA86132833A9B600E36D2D /* MyGeometryReader.swift in Sources */,
 				C0C0AA792828FB2E0017BC84 /* SwiftUI_JungDaeriApp.swift in Sources */,
 				C0BA86192833EF7600E36D2D /* MyView.swift in Sources */,
+				C0DA90DC28364FDC00A9392B /* MyRotateButtonStyle.swift in Sources */,
 				C0F3789E282E908A00906A04 /* ImageTutorialView.swift in Sources */,
+				C0DA90D828364B6300A9392B /* ButtonStyle_ContentView.swift in Sources */,
 				C0E68107282F696E0028285E /* MyCard.swift in Sources */,
 				C0236B06282C043200E75C3C /* Text_tutorial.swift in Sources */,
 				C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */,
 				C0E6810E283143F50028285E /* MyNavigationView.swift in Sources */,
+				C0DA90DA28364BEF00A9392B /* MyButtonStyle.swift in Sources */,
 				C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */,
 				C0BA861B2833F27300E36D2D /* MyCustomTabView.swift in Sources */,
+				C0DA90E0283651CD00A9392B /* MyBlurButtonStyle.swift in Sources */,
 				C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */,
 				C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */,
 				C0BA86172833ED7200E36D2D /* MyTabView.swift in Sources */,
