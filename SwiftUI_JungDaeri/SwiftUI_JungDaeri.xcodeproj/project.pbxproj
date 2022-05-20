@@ -28,6 +28,7 @@
 		C0DA90DC28364FDC00A9392B /* MyRotateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90DB28364FDC00A9392B /* MyRotateButtonStyle.swift */; };
 		C0DA90DE2836513400A9392B /* MySmallerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90DD2836513400A9392B /* MySmallerButtonStyle.swift */; };
 		C0DA90E0283651CD00A9392B /* MyBlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90DF283651CD00A9392B /* MyBlurButtonStyle.swift */; };
+		C0DA90E32837AA6300A9392B /* TextField_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA90E22837AA6300A9392B /* TextField_ContentView.swift */; };
 		C0E68107282F696E0028285E /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E68106282F696E0028285E /* MyCard.swift */; };
 		C0E6810A282F6F9E0028285E /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E68109282F6F9E0028285E /* MyList.swift */; };
 		C0E6810E283143F50028285E /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6810D283143F50028285E /* MyNavigationView.swift */; };
@@ -60,6 +61,7 @@
 		C0DA90DB28364FDC00A9392B /* MyRotateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotateButtonStyle.swift; sourceTree = "<group>"; };
 		C0DA90DD2836513400A9392B /* MySmallerButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmallerButtonStyle.swift; sourceTree = "<group>"; };
 		C0DA90DF283651CD00A9392B /* MyBlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlurButtonStyle.swift; sourceTree = "<group>"; };
+		C0DA90E22837AA6300A9392B /* TextField_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_ContentView.swift; sourceTree = "<group>"; };
 		C0E68106282F696E0028285E /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		C0E68109282F6F9E0028285E /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		C0E6810D283143F50028285E /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		C0C0AA632828FB2D0017BC84 = {
 			isa = PBXGroup;
 			children = (
+				C0DA90E12837AA3300A9392B /* TextInput_swiftUI */,
 				C0DA90D628364B3400A9392B /* ButtonStyle_swiftUI */,
 				C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */,
 				C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */,
@@ -150,6 +153,14 @@
 				C0DA90DF283651CD00A9392B /* MyBlurButtonStyle.swift */,
 			);
 			path = ButtonStyle_swiftUI;
+			sourceTree = "<group>";
+		};
+		C0DA90E12837AA3300A9392B /* TextInput_swiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C0DA90E22837AA6300A9392B /* TextField_ContentView.swift */,
+			);
+			path = TextInput_swiftUI;
 			sourceTree = "<group>";
 		};
 		C0F3789C282E903F00906A04 /* Image_tutorial */ = {
@@ -297,6 +308,7 @@
 				C0DA90DA28364BEF00A9392B /* MyButtonStyle.swift in Sources */,
 				C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */,
 				C0BA861B2833F27300E36D2D /* MyCustomTabView.swift in Sources */,
+				C0DA90E32837AA6300A9392B /* TextField_ContentView.swift in Sources */,
 				C0DA90E0283651CD00A9392B /* MyBlurButtonStyle.swift in Sources */,
 				C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */,
 				C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */,
