@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_JungDaeri_YoutubeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MypopupVIew()
         }
     }
 }
