@@ -13,15 +13,24 @@
 		C042B62A2838F5D4009300C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B6182838F5D3009300C0 /* ContentView.swift */; };
 		C042B62B2838F5D4009300C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C042B6192838F5D4009300C0 /* Assets.xcassets */; };
 		C042B62C2838F5D4009300C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C042B6192838F5D4009300C0 /* Assets.xcassets */; };
-		C042B6382838F5FC009300C0 /* Popup_swiftUI(lib) in Resources */ = {isa = PBXBuildFile; fileRef = C042B6352838F5FC009300C0 /* Popup_swiftUI(lib) */; };
-		C042B6392838F5FC009300C0 /* TextInput_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B6362838F5FC009300C0 /* TextInput_swiftUI */; };
-		C042B63A2838F5FC009300C0 /* ButtonStyle_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B6372838F5FC009300C0 /* ButtonStyle_swiftUI */; };
-		C042B63F2838F603009300C0 /* Text_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B63B2838F603009300C0 /* Text_tutorial */; };
-		C042B6402838F603009300C0 /* Image_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B63C2838F603009300C0 /* Image_tutorial */; };
-		C042B6412838F603009300C0 /* WebView_Tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B63D2838F603009300C0 /* WebView_Tutorial */; };
-		C042B6422838F603009300C0 /* SwitUI_stack_practice_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B63E2838F603009300C0 /* SwitUI_stack_practice_tutorial */; };
-		C042B6452838F632009300C0 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B6432838F632009300C0 /* MyTextView.swift */; };
-		C042B6462838F632009300C0 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B6442838F632009300C0 /* MyVstackView.swift */; };
+		C042B6492838F6A9009300C0 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B6472838F6A8009300C0 /* MyTextView.swift */; };
+		C042B64A2838F6A9009300C0 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B6472838F6A8009300C0 /* MyTextView.swift */; };
+		C042B64B2838F6A9009300C0 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B6482838F6A8009300C0 /* MyVstackView.swift */; };
+		C042B64C2838F6A9009300C0 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B6482838F6A8009300C0 /* MyVstackView.swift */; };
+		C042B6512838F6B8009300C0 /* Image_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B64D2838F6B8009300C0 /* Image_tutorial */; };
+		C042B6522838F6B8009300C0 /* Image_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B64D2838F6B8009300C0 /* Image_tutorial */; };
+		C042B6532838F6B8009300C0 /* Text_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B64E2838F6B8009300C0 /* Text_tutorial */; };
+		C042B6542838F6B8009300C0 /* Text_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B64E2838F6B8009300C0 /* Text_tutorial */; };
+		C042B6552838F6B8009300C0 /* SwitUI_stack_practice_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B64F2838F6B8009300C0 /* SwitUI_stack_practice_tutorial */; };
+		C042B6562838F6B8009300C0 /* SwitUI_stack_practice_tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B64F2838F6B8009300C0 /* SwitUI_stack_practice_tutorial */; };
+		C042B6572838F6B8009300C0 /* WebView_Tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B6502838F6B8009300C0 /* WebView_Tutorial */; };
+		C042B6582838F6B8009300C0 /* WebView_Tutorial in Resources */ = {isa = PBXBuildFile; fileRef = C042B6502838F6B8009300C0 /* WebView_Tutorial */; };
+		C042B65C2838F6BD009300C0 /* ButtonStyle_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B6592838F6BD009300C0 /* ButtonStyle_swiftUI */; };
+		C042B65D2838F6BD009300C0 /* ButtonStyle_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B6592838F6BD009300C0 /* ButtonStyle_swiftUI */; };
+		C042B65E2838F6BD009300C0 /* Popup_swiftUI(lib) in Resources */ = {isa = PBXBuildFile; fileRef = C042B65A2838F6BD009300C0 /* Popup_swiftUI(lib) */; };
+		C042B65F2838F6BD009300C0 /* Popup_swiftUI(lib) in Resources */ = {isa = PBXBuildFile; fileRef = C042B65A2838F6BD009300C0 /* Popup_swiftUI(lib) */; };
+		C042B6602838F6BD009300C0 /* TextInput_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B65B2838F6BD009300C0 /* TextInput_swiftUI */; };
+		C042B6612838F6BD009300C0 /* TextInput_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B65B2838F6BD009300C0 /* TextInput_swiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +40,15 @@
 		C042B61E2838F5D4009300C0 /* SwiftUI_JungDaeri_Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_JungDaeri_Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C042B6242838F5D4009300C0 /* SwiftUI_JungDaeri_Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_JungDaeri_Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C042B6262838F5D4009300C0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		C042B6352838F5FC009300C0 /* Popup_swiftUI(lib) */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Popup_swiftUI(lib)"; path = "../SwiftUI_JungDaeri/Popup_swiftUI(lib)"; sourceTree = "<group>"; };
-		C042B6362838F5FC009300C0 /* TextInput_swiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TextInput_swiftUI; path = ../SwiftUI_JungDaeri/TextInput_swiftUI; sourceTree = "<group>"; };
-		C042B6372838F5FC009300C0 /* ButtonStyle_swiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ButtonStyle_swiftUI; path = ../SwiftUI_JungDaeri/ButtonStyle_swiftUI; sourceTree = "<group>"; };
-		C042B63B2838F603009300C0 /* Text_tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Text_tutorial; path = ../SwiftUI_JungDaeri/Text_tutorial; sourceTree = "<group>"; };
-		C042B63C2838F603009300C0 /* Image_tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Image_tutorial; path = ../SwiftUI_JungDaeri/Image_tutorial; sourceTree = "<group>"; };
-		C042B63D2838F603009300C0 /* WebView_Tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebView_Tutorial; path = ../SwiftUI_JungDaeri/WebView_Tutorial; sourceTree = "<group>"; };
-		C042B63E2838F603009300C0 /* SwitUI_stack_practice_tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwitUI_stack_practice_tutorial; path = ../SwiftUI_JungDaeri/SwitUI_stack_practice_tutorial; sourceTree = "<group>"; };
-		C042B6432838F632009300C0 /* MyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTextView.swift; path = ../../SwiftUI_JungDaeri/Shared/MyTextView.swift; sourceTree = "<group>"; };
-		C042B6442838F632009300C0 /* MyVstackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyVstackView.swift; path = ../../SwiftUI_JungDaeri/Shared/MyVstackView.swift; sourceTree = "<group>"; };
+		C042B6472838F6A8009300C0 /* MyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		C042B6482838F6A8009300C0 /* MyVstackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		C042B64D2838F6B8009300C0 /* Image_tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Image_tutorial; sourceTree = "<group>"; };
+		C042B64E2838F6B8009300C0 /* Text_tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Text_tutorial; sourceTree = "<group>"; };
+		C042B64F2838F6B8009300C0 /* SwitUI_stack_practice_tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwitUI_stack_practice_tutorial; sourceTree = "<group>"; };
+		C042B6502838F6B8009300C0 /* WebView_Tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebView_Tutorial; sourceTree = "<group>"; };
+		C042B6592838F6BD009300C0 /* ButtonStyle_swiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ButtonStyle_swiftUI; sourceTree = "<group>"; };
+		C042B65A2838F6BD009300C0 /* Popup_swiftUI(lib) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Popup_swiftUI(lib)"; sourceTree = "<group>"; };
+		C042B65B2838F6BD009300C0 /* TextInput_swiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextInput_swiftUI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +72,13 @@
 		C042B6112838F5D3009300C0 = {
 			isa = PBXGroup;
 			children = (
-				C042B63C2838F603009300C0 /* Image_tutorial */,
-				C042B63E2838F603009300C0 /* SwitUI_stack_practice_tutorial */,
-				C042B63B2838F603009300C0 /* Text_tutorial */,
-				C042B63D2838F603009300C0 /* WebView_Tutorial */,
-				C042B6372838F5FC009300C0 /* ButtonStyle_swiftUI */,
-				C042B6352838F5FC009300C0 /* Popup_swiftUI(lib) */,
-				C042B6362838F5FC009300C0 /* TextInput_swiftUI */,
+				C042B6592838F6BD009300C0 /* ButtonStyle_swiftUI */,
+				C042B65A2838F6BD009300C0 /* Popup_swiftUI(lib) */,
+				C042B65B2838F6BD009300C0 /* TextInput_swiftUI */,
+				C042B64D2838F6B8009300C0 /* Image_tutorial */,
+				C042B64F2838F6B8009300C0 /* SwitUI_stack_practice_tutorial */,
+				C042B64E2838F6B8009300C0 /* Text_tutorial */,
+				C042B6502838F6B8009300C0 /* WebView_Tutorial */,
 				C042B6162838F5D3009300C0 /* Shared */,
 				C042B6252838F5D4009300C0 /* macOS */,
 				C042B61F2838F5D4009300C0 /* Products */,
@@ -81,8 +90,8 @@
 			children = (
 				C042B6172838F5D3009300C0 /* SwiftUI_JungDaeri_YoutubeApp.swift */,
 				C042B6182838F5D3009300C0 /* ContentView.swift */,
-				C042B6432838F632009300C0 /* MyTextView.swift */,
-				C042B6442838F632009300C0 /* MyVstackView.swift */,
+				C042B6472838F6A8009300C0 /* MyTextView.swift */,
+				C042B6482838F6A8009300C0 /* MyVstackView.swift */,
 				C042B6192838F5D4009300C0 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -184,14 +193,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C042B6382838F5FC009300C0 /* Popup_swiftUI(lib) in Resources */,
-				C042B63F2838F603009300C0 /* Text_tutorial in Resources */,
-				C042B6392838F5FC009300C0 /* TextInput_swiftUI in Resources */,
-				C042B63A2838F5FC009300C0 /* ButtonStyle_swiftUI in Resources */,
-				C042B6402838F603009300C0 /* Image_tutorial in Resources */,
-				C042B6422838F603009300C0 /* SwitUI_stack_practice_tutorial in Resources */,
+				C042B6602838F6BD009300C0 /* TextInput_swiftUI in Resources */,
+				C042B6532838F6B8009300C0 /* Text_tutorial in Resources */,
+				C042B65E2838F6BD009300C0 /* Popup_swiftUI(lib) in Resources */,
+				C042B6552838F6B8009300C0 /* SwitUI_stack_practice_tutorial in Resources */,
+				C042B65C2838F6BD009300C0 /* ButtonStyle_swiftUI in Resources */,
+				C042B6512838F6B8009300C0 /* Image_tutorial in Resources */,
 				C042B62B2838F5D4009300C0 /* Assets.xcassets in Resources */,
-				C042B6412838F603009300C0 /* WebView_Tutorial in Resources */,
+				C042B6572838F6B8009300C0 /* WebView_Tutorial in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +208,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C042B6612838F6BD009300C0 /* TextInput_swiftUI in Resources */,
+				C042B6542838F6B8009300C0 /* Text_tutorial in Resources */,
+				C042B65F2838F6BD009300C0 /* Popup_swiftUI(lib) in Resources */,
+				C042B6562838F6B8009300C0 /* SwitUI_stack_practice_tutorial in Resources */,
+				C042B65D2838F6BD009300C0 /* ButtonStyle_swiftUI in Resources */,
+				C042B6522838F6B8009300C0 /* Image_tutorial in Resources */,
 				C042B62C2838F5D4009300C0 /* Assets.xcassets in Resources */,
+				C042B6582838F6B8009300C0 /* WebView_Tutorial in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C042B6292838F5D4009300C0 /* ContentView.swift in Sources */,
-				C042B6452838F632009300C0 /* MyTextView.swift in Sources */,
-				C042B6462838F632009300C0 /* MyVstackView.swift in Sources */,
+				C042B6492838F6A9009300C0 /* MyTextView.swift in Sources */,
+				C042B64B2838F6A9009300C0 /* MyVstackView.swift in Sources */,
 				C042B6272838F5D4009300C0 /* SwiftUI_JungDaeri_YoutubeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C042B62A2838F5D4009300C0 /* ContentView.swift in Sources */,
+				C042B64A2838F6A9009300C0 /* MyTextView.swift in Sources */,
+				C042B64C2838F6A9009300C0 /* MyVstackView.swift in Sources */,
 				C042B6282838F5D4009300C0 /* SwiftUI_JungDaeri_YoutubeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
