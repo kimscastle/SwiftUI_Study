@@ -14,20 +14,38 @@ struct TextField_ContentView: View {
     
     var body: some View {
         
-        VStack{
+        VStack(spacing: 10){
             HStack {
                 TextField("아이디를 입력해주세요", text: $username)
+                    .autocapitalization(.none)
+                    .disableAutocorrection(true)
                     .textFieldStyle(.roundedBorder)
                 Button {
                     self.username = ""
                 } label: {
-                    Image(systemName: "multiply.circle.fill")
+                    if(username.count > 0) {
+                        Image(systemName: "multiply.circle.fill")
+                            .font(.system(size: 25))
                         .foregroundColor(.secondary)
+                    }
                 }
 
             }
-            SecureField("비밀번호를 입력해주세요", text: $password)
-                .textFieldStyle(.roundedBorder)
+            HStack {
+                SecureField("비밀번호를 입력해주세요", text: $password)
+                    .autocapitalization(.none)
+                    .disableAutocorrection(true)
+                    .textFieldStyle(.roundedBorder)
+                Button {
+                    self.password = ""
+                } label: {
+                    if(password.count > 0) {
+                        Image(systemName: "multiply.circle.fill")
+                            .font(.system(size: 25))
+                        .foregroundColor(.secondary)
+                    }
+                }
+            }
             Text("입력한비번 : \(password)")
         }
         .padding(.horizontal, 50)
