@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89EA7D220D7442E0465489C8 /* Pods_SwiftUI_JungDaeri__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222A560E12C7CD28101F47E2 /* Pods_SwiftUI_JungDaeri__macOS_.framework */; };
+		A32D7AA02D449DA23E23B026 /* Pods_SwiftUI_JungDaeri__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6482910BE81DEBB084326640 /* Pods_SwiftUI_JungDaeri__iOS_.framework */; };
 		C0236B00282BF05700E75C3C /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236AFF282BF05700E75C3C /* WebContentView.swift */; };
 		C0236B03282BF0E000E75C3C /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236B02282BF0E000E75C3C /* MyWebView.swift */; };
 		C0236B06282C043200E75C3C /* Text_tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236B05282C043200E75C3C /* Text_tutorial.swift */; };
+		C042B5092838E651009300C0 /* PopUpContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C042B5082838E651009300C0 /* PopUpContentView.swift */; };
 		C0BA86132833A9B600E36D2D /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86122833A9B600E36D2D /* MyGeometryReader.swift */; };
 		C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86142833AC5400E36D2D /* MyGeometryReaderVstack.swift */; };
 		C0BA86172833ED7200E36D2D /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA86162833ED7200E36D2D /* MyTabView.swift */; };
@@ -40,10 +43,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222A560E12C7CD28101F47E2 /* Pods_SwiftUI_JungDaeri__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_JungDaeri__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6482910BE81DEBB084326640 /* Pods_SwiftUI_JungDaeri__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_JungDaeri__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE3345E3CA3E3B72D5AC4B3 /* Pods-SwiftUI_JungDaeri (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_JungDaeri (iOS).release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_JungDaeri (iOS)/Pods-SwiftUI_JungDaeri (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		9F8FF16F526B17C6ADBB5626 /* Pods-SwiftUI_JungDaeri (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_JungDaeri (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_JungDaeri (iOS)/Pods-SwiftUI_JungDaeri (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		A93062BABC024699A24CA2AB /* Pods-SwiftUI_JungDaeri (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_JungDaeri (macOS).release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_JungDaeri (macOS)/Pods-SwiftUI_JungDaeri (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		C0236AFF282BF05700E75C3C /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
 		C0236B01282BF09C00E75C3C /* SwiftUI-JungDaeri--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftUI-JungDaeri--iOS--Info.plist"; sourceTree = "<group>"; };
 		C0236B02282BF0E000E75C3C /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		C0236B05282C043200E75C3C /* Text_tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_tutorial.swift; sourceTree = "<group>"; };
+		C042B5082838E651009300C0 /* PopUpContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpContentView.swift; sourceTree = "<group>"; };
 		C0BA86122833A9B600E36D2D /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
 		C0BA86142833AC5400E36D2D /* MyGeometryReaderVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVstack.swift; sourceTree = "<group>"; };
 		C0BA86162833ED7200E36D2D /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
@@ -70,6 +79,7 @@
 		C0F378A2282EA0AC00906A04 /* StackPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPracticeView.swift; sourceTree = "<group>"; };
 		C0F378A4282EA0D900906A04 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		C0F378A6282EA46B00906A04 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		F3F63C1BB2014CF587193C19 /* Pods-SwiftUI_JungDaeri (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_JungDaeri (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_JungDaeri (macOS)/Pods-SwiftUI_JungDaeri (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32D7AA02D449DA23E23B026 /* Pods_SwiftUI_JungDaeri__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +95,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EA7D220D7442E0465489C8 /* Pods_SwiftUI_JungDaeri__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDCD2A9210ABCBC22F5DA1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6482910BE81DEBB084326640 /* Pods_SwiftUI_JungDaeri__iOS_.framework */,
+				222A560E12C7CD28101F47E2 /* Pods_SwiftUI_JungDaeri__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5007CF2C967112BD077DF3F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F8FF16F526B17C6ADBB5626 /* Pods-SwiftUI_JungDaeri (iOS).debug.xcconfig */,
+				8AE3345E3CA3E3B72D5AC4B3 /* Pods-SwiftUI_JungDaeri (iOS).release.xcconfig */,
+				F3F63C1BB2014CF587193C19 /* Pods-SwiftUI_JungDaeri (macOS).debug.xcconfig */,
+				A93062BABC024699A24CA2AB /* Pods-SwiftUI_JungDaeri (macOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C0236AFE282BF00C00E75C3C /* WebView_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +140,18 @@
 			path = Text_tutorial;
 			sourceTree = "<group>";
 		};
+		C042B5072838E5FF009300C0 /* Popup_swiftUI(lib) */ = {
+			isa = PBXGroup;
+			children = (
+				C042B5082838E651009300C0 /* PopUpContentView.swift */,
+			);
+			path = "Popup_swiftUI(lib)";
+			sourceTree = "<group>";
+		};
 		C0C0AA632828FB2D0017BC84 = {
 			isa = PBXGroup;
 			children = (
+				C042B5072838E5FF009300C0 /* Popup_swiftUI(lib) */,
 				C0DA90E12837AA3300A9392B /* TextInput_swiftUI */,
 				C0DA90D628364B3400A9392B /* ButtonStyle_swiftUI */,
 				C0C0AA6B2828FB2E0017BC84 /* Assets.xcassets */,
@@ -120,6 +162,8 @@
 				C0236AFE282BF00C00E75C3C /* WebView_Tutorial */,
 				C0C0AA682828FB2D0017BC84 /* Shared */,
 				C0C0AA712828FB2E0017BC84 /* Products */,
+				5007CF2C967112BD077DF3F2 /* Pods */,
+				0BDCD2A9210ABCBC22F5DA1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0C0AA812828FB2E0017BC84 /* Build configuration list for PBXNativeTarget "SwiftUI_JungDaeri (iOS)" */;
 			buildPhases = (
+				AB63394594C95F7DA16D1A44 /* [CP] Check Pods Manifest.lock */,
 				C0C0AA6C2828FB2E0017BC84 /* Sources */,
 				C0C0AA6D2828FB2E0017BC84 /* Frameworks */,
 				C0C0AA6E2828FB2E0017BC84 /* Resources */,
@@ -214,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0C0AA842828FB2E0017BC84 /* Build configuration list for PBXNativeTarget "SwiftUI_JungDaeri (macOS)" */;
 			buildPhases = (
+				43C5FB6C68F2DAD61BAC12D5 /* [CP] Check Pods Manifest.lock */,
 				C0C0AA722828FB2E0017BC84 /* Sources */,
 				C0C0AA732828FB2E0017BC84 /* Frameworks */,
 				C0C0AA742828FB2E0017BC84 /* Resources */,
+				F512D67CE8549141521CE4B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +330,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43C5FB6C68F2DAD61BAC12D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_JungDaeri (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB63394594C95F7DA16D1A44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_JungDaeri (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F512D67CE8549141521CE4B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_JungDaeri (macOS)/Pods-SwiftUI_JungDaeri (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_JungDaeri (macOS)/Pods-SwiftUI_JungDaeri (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_JungDaeri (macOS)/Pods-SwiftUI_JungDaeri (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0C0AA6C2828FB2E0017BC84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -309,6 +420,7 @@
 				C0F378A3282EA0AC00906A04 /* StackPracticeView.swift in Sources */,
 				C0BA861B2833F27300E36D2D /* MyCustomTabView.swift in Sources */,
 				C0DA90E32837AA6300A9392B /* TextField_ContentView.swift in Sources */,
+				C042B5092838E651009300C0 /* PopUpContentView.swift in Sources */,
 				C0DA90E0283651CD00A9392B /* MyBlurButtonStyle.swift in Sources */,
 				C0F378A7282EA46B00906A04 /* MyBasicCard.swift in Sources */,
 				C0BA86152833AC5400E36D2D /* MyGeometryReaderVstack.swift in Sources */,
@@ -440,6 +552,7 @@
 		};
 		C0C0AA822828FB2E0017BC84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8FF16F526B17C6ADBB5626 /* Pods-SwiftUI_JungDaeri (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +584,7 @@
 		};
 		C0C0AA832828FB2E0017BC84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE3345E3CA3E3B72D5AC4B3 /* Pods-SwiftUI_JungDaeri (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -503,6 +617,7 @@
 		};
 		C0C0AA852828FB2E0017BC84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F63C1BB2014CF587193C19 /* Pods-SwiftUI_JungDaeri (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -531,6 +646,7 @@
 		};
 		C0C0AA862828FB2E0017BC84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93062BABC024699A24CA2AB /* Pods-SwiftUI_JungDaeri (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
