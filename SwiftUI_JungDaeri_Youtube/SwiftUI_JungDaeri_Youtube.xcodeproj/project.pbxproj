@@ -35,6 +35,7 @@
 		C042B65D2838F6BD009300C0 /* ButtonStyle_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B6592838F6BD009300C0 /* ButtonStyle_swiftUI */; };
 		C042B6602838F6BD009300C0 /* TextInput_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B65B2838F6BD009300C0 /* TextInput_swiftUI */; };
 		C042B6612838F6BD009300C0 /* TextInput_swiftUI in Resources */ = {isa = PBXBuildFile; fileRef = C042B65B2838F6BD009300C0 /* TextInput_swiftUI */; };
+		C07436C3283BA2190028ED9B /* MenuContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07436C2283BA2190028ED9B /* MenuContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		C042B6502838F6B8009300C0 /* WebView_Tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebView_Tutorial; sourceTree = "<group>"; };
 		C042B6592838F6BD009300C0 /* ButtonStyle_swiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ButtonStyle_swiftUI; sourceTree = "<group>"; };
 		C042B65B2838F6BD009300C0 /* TextInput_swiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextInput_swiftUI; sourceTree = "<group>"; };
+		C07436C2283BA2190028ED9B /* MenuContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		C042B6112838F5D3009300C0 = {
 			isa = PBXGroup;
 			children = (
+				C07436C1283BA1FC0028ED9B /* Menu_SwiftUI */,
 				C02EBF8A2839D9910044F5E9 /* Picker_SwiftUI */,
 				C02EBF832838F8CD0044F5E9 /* Popup_SwiftUI */,
 				C042B6592838F6BD009300C0 /* ButtonStyle_swiftUI */,
@@ -128,6 +131,14 @@
 				C042B6242838F5D4009300C0 /* SwiftUI_JungDaeri_Youtube.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C07436C1283BA1FC0028ED9B /* Menu_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C07436C2283BA2190028ED9B /* MenuContentView.swift */,
+			);
+			path = Menu_SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 				C042B6292838F5D4009300C0 /* ContentView.swift in Sources */,
 				C02EBF882838F8E80044F5E9 /* popupVIew.swift in Sources */,
 				C042B6492838F6A9009300C0 /* MyTextView.swift in Sources */,
+				C07436C3283BA2190028ED9B /* MenuContentView.swift in Sources */,
 				C042B64B2838F6A9009300C0 /* MyVstackView.swift in Sources */,
 				C02EBF852838F8DD0044F5E9 /* MypopupVIew.swift in Sources */,
 				C042B6272838F5D4009300C0 /* SwiftUI_JungDaeri_YoutubeApp.swift in Sources */,
