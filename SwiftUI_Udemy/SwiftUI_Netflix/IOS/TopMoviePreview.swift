@@ -44,6 +44,12 @@ struct TopMoviePreview: View {
                         }
                     }
                 }
+                HStack {
+                    Text("ㅎㅎㅎㅎ")
+                    Text("ㅎㅎㅎㅎ")
+                    Text("ㅎㅎㅎㅎ")
+                    
+                }
             }
         }
         .foregroundColor(.white)
