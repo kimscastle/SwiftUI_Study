@@ -73,12 +73,12 @@
 			children = (
 				C069AA5E2841D30000B6FC12 /* HomeView.swift */,
 				C069AA702842369700B6FC12 /* TopMoviePreview.swift */,
+				C085797E28425EBA0078D7E8 /* WhiteButton.swift */,
+				C085797B28424C2D0078D7E8 /* SmallVerticalButton.swift */,
 				C069AA6D2841DF5700B6FC12 /* HomeVM.swift */,
 				C069AA642841D46F00B6FC12 /* Movie.swift */,
 				C069AA672841D51800B6FC12 /* StandardHomeMovie.swift */,
 				C069AA6A2841D5F200B6FC12 /* GlobalHelpers.swift */,
-				C085797B28424C2D0078D7E8 /* SmallVerticalButton.swift */,
-				C085797E28425EBA0078D7E8 /* WhiteButton.swift */,
 			);
 			path = IOS;
 			sourceTree = "<group>";
