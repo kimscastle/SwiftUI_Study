@@ -20,7 +20,7 @@ struct HomeView: View {
             ScrollView(showsIndicators: false) {
                 LazyVStack {
                     
-                    TopMoviePreview(movie: exampleMovie1)
+                    TopMoviePreview(movie: exampleMovie2)
                         .frame(width: screen.width)
                         .padding(.top, -110)
                     

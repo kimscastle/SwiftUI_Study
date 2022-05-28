@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 //cmd + control + option + F = 새로만든 요소들 전체에 넣어줌
 let exampleMovie1 = Movie(id: UUID().uuidString, name: "DARK", thumbnailURL: URL(string: "https://picsum.photos/200/300")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"])
@@ -16,3 +17,11 @@ let exampleMovie5 = Movie(id: UUID().uuidString, name: "Hannibla", thumbnailURL:
 let exampleMovie6 = Movie(id: UUID().uuidString, name: "After Life", thumbnailURL: URL(string: "https://picsum.photos/200/304")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"])
 
 let exampleMoives: [Movie] = [exampleMovie1, exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6]
+
+extension LinearGradient {
+    static let blackOpacityGradient = LinearGradient(
+        gradient: Gradient(colors: [.black.opacity(0), .black.opacity(0.95)]),
+        startPoint: .top,
+        endPoint: .bottom
+    )
+}
