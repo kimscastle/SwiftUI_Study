@@ -37,8 +37,11 @@ struct MovieDetail: View {
                         
                         
                         MovieInfoSubheadline(movie: movie)
-                            
                         
+                        if movie.promotionHeadline != nil {
+                            Text(movie.promotionHeadline!)
+                                .bold()
+                        }
                     }
                 }
                 Spacer()
@@ -50,21 +53,35 @@ struct MovieDetail: View {
 
 struct MovieDetail_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetail(movie: exampleMovie3)
+        MovieDetail(movie: exampleMovie2)
     }
 }
 
 struct MovieInfoSubheadline: View {
     var movie: Movie
     var body: some View {
-        HStack {
+        HStack(spacing: 20) {
             Image(systemName: "hand.thumbsup.fill")
                 .foregroundColor(.white)
-            Text("MOVIE TEAR")
-            Text("RATING")
-            Text("season")
+            Text(String(movie.year))
+            RatingVIew(rating: movie.rating)
+            Text(movie.numberOfSeasonDisplay)
         }
         .foregroundColor(.gray)
         .padding(.vertical, 6)
+    }
+}
+
+struct RatingVIew: View {
+    var rating: String
+    var body: some View {
+        ZStack{
+            Rectangle()
+                .foregroundColor(.gray)
+            Text(rating)
+                .foregroundColor(.white)
+                .font(.system(size: 12, weight: .bold))
+        }
+        .frame(width: 50, height: 20)
     }
 }

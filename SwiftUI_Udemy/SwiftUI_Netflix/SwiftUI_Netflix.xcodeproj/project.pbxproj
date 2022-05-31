@@ -31,6 +31,8 @@
 		C08E202F2841156E009AAF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08E201D2841156E009AAF96 /* Assets.xcassets */; };
 		C08E20302841156E009AAF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08E201D2841156E009AAF96 /* Assets.xcassets */; };
 		C0B976A8284503A80022A3DA /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B976A7284503A80022A3DA /* MovieDetail.swift */; };
+		C0EB55E32846384A00FDDAC8 /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB55E22846384A00FDDAC8 /* Episodes.swift */; };
+		C0EB55E42846384A00FDDAC8 /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB55E22846384A00FDDAC8 /* Episodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,7 @@
 		C08E20282841156E009AAF96 /* SwiftUI_Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08E202A2841156E009AAF96 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		C0B976A7284503A80022A3DA /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		C0EB55E22846384A00FDDAC8 /* Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C069AA642841D46F00B6FC12 /* Movie.swift */,
+				C0EB55E22846384A00FDDAC8 /* Episodes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C069AA6B2841D5F200B6FC12 /* GlobalHelpers.swift in Sources */,
+				C0EB55E32846384A00FDDAC8 /* Episodes.swift in Sources */,
 				C069AA5F2841D30000B6FC12 /* HomeView.swift in Sources */,
 				C069AA6E2841DF5700B6FC12 /* HomeVM.swift in Sources */,
 				C08E202D2841156E009AAF96 /* ContentView.swift in Sources */,
@@ -285,6 +290,7 @@
 				C069AA722842369700B6FC12 /* TopMoviePreview.swift in Sources */,
 				C069AA662841D46F00B6FC12 /* Movie.swift in Sources */,
 				C08E202C2841156E009AAF96 /* SwiftUI_NetflixApp.swift in Sources */,
+				C0EB55E42846384A00FDDAC8 /* Episodes.swift in Sources */,
 				C085797D28424C2D0078D7E8 /* SmallVerticalButton.swift in Sources */,
 				C085798028425EBA0078D7E8 /* WhiteButton.swift in Sources */,
 			);
