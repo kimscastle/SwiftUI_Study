@@ -13,4 +13,19 @@ struct Movie: Identifiable {
     var thumbnailURL: URL
     
     var categories: [String]
+    
+    //MovieDetail View
+    var year: Int
+    var rating: String
+    var numberOfSeason: Int?
+    
+    var numberOfSeasonDisplay: String {
+        if let num = numberOfSeason {
+            if num == 1 {
+                return "1 season"
+            } else {
+                return "\(num) season"
+            }
+        }
+    }
 }
