@@ -49,8 +49,10 @@ struct MovieDetail: View {
                         //Current Episode Information
                         //1.Default
                         //2.Personalized - where the user currentlt is
-                        Text(movie.episodeInfoDisplay)
-                        Text(movie.episodeDescriptionDisplay)
+                        CurrentEpisodeInfomation(movie: movie)
+
+                        
+                        CastInfo(movie: movie)
                         
                     }
                     .padding(.horizontal, 10)
@@ -94,5 +96,46 @@ struct RatingVIew: View {
                 .font(.system(size: 12, weight: .bold))
         }
         .frame(width: 50, height: 20)
+    }
+}
+
+struct CastInfo: View {
+    var movie: Movie
+    var body: some View {
+        VStack {
+            HStack {
+                Text("Cast: \(movie.cast)")
+                Spacer()
+                
+            }
+            HStack {
+                Text("Creators: \(movie.creators)")
+                Spacer()
+                
+            }
+        }
+        .font(.caption)
+        .foregroundColor(.gray)
+        .padding(.vertical, 1)
+    }
+}
+
+struct CurrentEpisodeInfomation: View {
+    var movie: Movie
+    var body: some View {
+        Group {
+            HStack {
+                Text(movie.episodeInfoDisplay)
+                    .bold()
+                Spacer()
+            }
+            .padding(.vertical, 4)
+            
+            HStack {
+                Text(movie.episodeDescriptionDisplay)
+                    .font(.subheadline)
+                Spacer()
+            }
+        }
     }
 }

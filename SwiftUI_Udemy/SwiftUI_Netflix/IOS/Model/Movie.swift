@@ -22,6 +22,8 @@ struct Movie: Identifiable {
     var currentEpisode: CurrentEpisodeInfo?
     
     var defaultEpisodeInfo: CurrentEpisodeInfo
+    var creators: String
+    var cast : String
     
     var episodes: [Episodes]?
     
@@ -41,9 +43,9 @@ struct Movie: Identifiable {
     var episodeInfoDisplay: String {
         //만약에 currentEpisode가 있다면
         if let current = currentEpisode {
-            return "S\(current.season):E\(current.episode) \(current.episodeName), im"
+            return "S\(current.season):E\(current.episode) \(current.episodeName)"
         } else {
-            return "S\(defaultEpisodeInfo.season):E\(defaultEpisodeInfo.episode)"
+            return "S\(defaultEpisodeInfo.season):E\(defaultEpisodeInfo.episode) \(defaultEpisodeInfo.episodeName)"
         }
     }
     
