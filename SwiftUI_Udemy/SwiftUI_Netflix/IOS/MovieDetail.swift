@@ -41,8 +41,19 @@ struct MovieDetail: View {
                         if movie.promotionHeadline != nil {
                             Text(movie.promotionHeadline!)
                                 .bold()
+                                .font(.headline)
                         }
+                        PlayButton(text: "Play", imageName: "play.fill", backgroundColor: .red, action: {
+                            //
+                        })
+                        //Current Episode Information
+                        //1.Default
+                        //2.Personalized - where the user currentlt is
+                        Text(movie.episodeInfoDisplay)
+                        Text(movie.episodeDescriptionDisplay)
+                        
                     }
+                    .padding(.horizontal, 10)
                 }
                 Spacer()
             }
