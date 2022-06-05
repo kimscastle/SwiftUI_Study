@@ -25,6 +25,7 @@ struct MenuContentView: View {
             }
             .padding()
             .navigationTitle("하이요")
+            //눌러서 실시간으로 변하는거면 picker를 쓰는게 맞고 버튼을 눌러서 피커뷰가나오게할거면 Menu를써야함
             .toolbar(content: {
                 ToolbarItem(placement: .primaryAction, content: {
                     Menu(content: {
@@ -37,7 +38,7 @@ struct MenuContentView: View {
                         }
                         Text("하하하")
                         Text("하하하")
-                        
+
                         Section{
                             Button {
                                 print("버튼클릭!")
@@ -47,7 +48,7 @@ struct MenuContentView: View {
                                 Label("집에서 쉬는날!", systemImage: "house.fill")
                             }
                         }
-                        
+
                         Section{
                             Button {
                             } label: {
@@ -60,19 +61,19 @@ struct MenuContentView: View {
                         }
                         Section{
                             Button {
-                                
+
                             } label: {
                                 Label("파일 모두 삭제", systemImage: "trash")
                             }
 
                         }
-                        
+
                         Picker(selection: $selected, label: Text("애완동물선택")){
                             ForEach(myPets.indices, id: \.self){index in
                                 Text("\(myPets[index])").tag(index)
                             }
                         }
-                        
+
                     }, label: {
                         Circle()
                             .foregroundColor(.yellow)
