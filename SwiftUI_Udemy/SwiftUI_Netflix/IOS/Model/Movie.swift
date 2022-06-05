@@ -28,8 +28,8 @@ struct Movie: Identifiable {
     var episodes: [Episodes]?
     
     var promotionHeadline: String?
-    
     var numberOfSeasonDisplay: String {
+        //조건에 부합하면 {}안에서 뭔가를 실행하는데 만약에 이조건이 만족하지 않을때 실행할 return이 필요하기때문에 (return "")을 사용
         if let num = numberOfSeason {
             if num == 1 {
                 return "1 season"
@@ -41,7 +41,7 @@ struct Movie: Identifiable {
     }
     
     var episodeInfoDisplay: String {
-        //만약에 currentEpisode가 있다면
+        //만약에 currentEpisode가 있다면 return이 있고 없다면 아래 return이 있기때문에 위의 numberOfSeasonDisplay처럼 빈return 값을 선언해줄 필요가 없다
         if let current = currentEpisode {
             return "S\(current.season):E\(current.episode) \(current.episodeName)"
         } else {
