@@ -54,6 +54,25 @@ struct MovieDetail: View {
                         
                         CastInfo(movie: movie)
                         
+                        HStack(spacing: 60) {
+                            SmallVerticalButton(text: "My List", isOnImage: "checkmark", isOffImage: "plus", isOn: true, action: {
+                                
+                            })
+                            
+                            SmallVerticalButton(text: "Rate", isOnImage: "hand.thumbsup.fill", isOffImage: "hand.thumbsup", isOn: true, action: {
+                                
+                            })
+                            
+                            SmallVerticalButton(text: "Share", isOnImage: "square.and.arrow.up", isOffImage: "square.and.arrow.up", isOn: true, action: {
+                                
+                            })
+                            Spacer()
+                        }
+                        .padding(.top, 10)
+                        .padding(.leading, 20)
+                        
+//                        CustomTabSwitcher()
+                        
                     }
                     .padding(.horizontal, 10)
                 }
